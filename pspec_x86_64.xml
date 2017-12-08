@@ -1,0 +1,106 @@
+<PISI>
+    <Source>
+        <Name>lbryum</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>network.clients</PartOf>
+        <Summary xml:lang="en">A lightweight client for lbrycrd</Summary>
+        <Description xml:lang="en">A lightweight client for lbrycrd
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>lbryum</Name>
+        <Summary xml:lang="en">A lightweight client for lbrycrd</Summary>
+        <Description xml:lang="en">A lightweight client for lbrycrd
+</Description>
+        <PartOf>network.clients</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum-3.2.0rc2-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum-3.2.0rc2-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum-3.2.0rc2-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum-3.2.0rc2-py2.7.egg-info/entry_points.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum-3.2.0rc2-py2.7.egg-info/not-zip-safe</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum-3.2.0rc2-py2.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum-3.2.0rc2-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/account.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/account.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/base.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/base.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/bcd_data_stream.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/bcd_data_stream.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/blockchain.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/blockchain.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/claims.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/claims.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/coinchooser.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/coinchooser.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/commands.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/commands.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/constants.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/constants.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/contacts.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/contacts.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/daemon.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/daemon.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/enumeration.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/enumeration.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/errors.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/errors.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/hashing.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/hashing.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/interface.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/interface.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/lbrycrd.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/lbrycrd.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/main.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/main.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/mnemonic.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/mnemonic.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/msqr.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/msqr.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/network.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/network.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/opcodes.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/opcodes.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/simple_config.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/simple_config.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/socket_pipe.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/socket_pipe.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/store.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/store.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/synchronizer.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/synchronizer.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/transaction.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/transaction.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/util.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/util.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/verifier.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/verifier.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/version.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/version.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/wallet.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/wallet.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/wordlist/chinese_simplified.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/wordlist/english.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/wordlist/japanese.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/wordlist/portuguese.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/lbryum/wordlist/spanish.txt</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-12-08</Date>
+            <Version>3.2.0_2</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>

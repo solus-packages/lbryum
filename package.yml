@@ -1,0 +1,34 @@
+name       : lbryum
+version    : 3.2.0_2
+release    : 1
+source     :
+    - https://github.com/lbryio/lbryum/archive/v3.2.0rc2.tar.gz : 05a176d70b5d1a48b205801648f067c6acfaa8a144bef0e0d49a1ddf0f7c4606
+license    : GPL-3.0
+component  : network.clients
+summary    : A lightweight client for lbrycrd
+description: |
+    A lightweight client for lbrycrd
+builddeps  :
+    - lbryschema
+    - python-appdirs
+    - python-jsonrpclib
+    - python-pbkdf2
+    - python-requests
+    - python-setuptools
+    - python-six
+    - python-slowaes
+rundeps    :
+    - lbryschema
+    - python-appdirs
+    - python-jsonrpclib
+    - python-pbkdf2
+    - python-requests
+    - python-six
+    - python-slowaes
+build      : |
+    %python_setup
+install    : |
+    %python_install
+    # Remove lbryum script and add our own. Upstream fails on its jsonrpclib check.
+    echo 'python /usr/lib/python2.7/site-packages/lbryum/main.py $@' > $installdir/usr/bin/lbryum
+    chmod +x $installdir/usr/bin/lbryum
